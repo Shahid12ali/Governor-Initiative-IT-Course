@@ -1,0 +1,26 @@
+{
+  "name": "atm-machine-23",
+  "version": "2.0.1",
+  "description": "Creating ATM Machine With All Features",
+  "main": "main.js",
+  "type": "module",
+  "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "atm-machine-23": "^2.0.1",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16"
+  }
+}
