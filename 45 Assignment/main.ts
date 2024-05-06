@@ -599,7 +599,7 @@ console.log(magician_names);
 
 //Array as A Parameter
 function mySandwiches (...items : string []) {
-    return `I Want Sanwich Of ${items}`;
+    return `I Want Sandwich Of ${items}`;
 };
 let collections = mySandwiches("ham "," lettuce"," cheeze");
 let collection2 = mySandwiches("Turkey "," Swiss");
