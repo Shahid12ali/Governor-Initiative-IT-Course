@@ -575,7 +575,7 @@ console.log(magician_names);
 //and it should print a summary of the sandwich that is being ordered. Call the function three times, using a different number of arguments each time.
 //Array as A Parameter
 function mySandwiches(...items) {
-    return `I Want Sanwich Of ${items}`;
+    return `I Want Sandwich Of ${items}`;
 }
 ;
 let collections = mySandwiches("ham ", " lettuce", " cheeze");
